@@ -1,1 +1,7 @@
-<p>board works!</p>
+<div class="board">
+  <app-square
+    *ngFor="let val of squares; let i = index"
+    [value]="val"
+    (click)="makeMove(i)">
+  </app-square>
+</div>
