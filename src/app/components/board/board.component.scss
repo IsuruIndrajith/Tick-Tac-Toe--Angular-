@@ -1,0 +1,12 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px); // 3 columns, 100px wide each
+  grid-template-rows: repeat(3, 100px);    // 3 rows, 100px tall each
+  gap: 5px;                                // space between squares
+}
+
+app-square button {
+  width: 100%;
+  height: 100%;
+  font-size: 2rem;
+}
