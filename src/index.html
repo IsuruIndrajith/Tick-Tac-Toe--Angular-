@@ -5,10 +5,15 @@
   <title>TickTacToe</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- ✅ PWA manifest and theme color belong *inside* <head> -->
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#1976d2">
+
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
   <app-root></app-root>
-  <!-- index.html in the src is the top level component that renders first -->
+  <!-- index.html in src is the top-level component that renders first -->
 </body>
 </html>

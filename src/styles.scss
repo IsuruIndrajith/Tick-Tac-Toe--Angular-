@@ -1,11 +1,3 @@
-@import '~@nebular/theme/styles/globals';
-
-// Cosmic theme setup
-@include nb-install() {
-  @include nb-theme-global();
-}
-
-
 /* You can add global styles to this file, and also import other style files */
 html, body {
     margin:0;
