@@ -52,7 +52,11 @@ For end-to-end (e2e) testing, run:
 ng e2e
 ```
 
+
 Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+
+## Game Screen Shot
+<img width="955" height="1015" alt="Screenshot 2025-09-29 172240" src="https://github.com/user-attachments/assets/f71bfbe2-3ff0-4c76-96c6-5b79e41af3be" />
 
 ## Additional Resources
 
