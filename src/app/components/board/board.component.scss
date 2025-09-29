@@ -1,12 +1,20 @@
 .board {
   display: grid;
-  grid-template-columns: repeat(3, 100px); // 3 columns, 100px wide each
-  grid-template-rows: repeat(3, 100px);    // 3 rows, 100px tall each
-  gap: 5px;                                // space between squares
+  grid-template-columns: 62px 62px 62px; // 3 columns, 62px wide each   // 3 rows, 100px tall each
+  grid-gap: 0px;                                // space between squares
 }
 
 app-square button {
-  width: 100%;
-  height: 100%;
+  border: 1px solid #929292;
+  height: 200px;
   font-size: 2rem;
+  font-weight: bold;
+}
+
+button {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #4CAF50;
 }
