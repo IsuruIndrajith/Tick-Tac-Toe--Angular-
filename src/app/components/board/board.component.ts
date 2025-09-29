@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { SquareComponent } from '../square/square.component';
-import { NgFor } from '@angular/common'; 
+import { NgFor, NgIf } from '@angular/common'; 
 
 @Component({
   selector: 'app-board',
-  imports: [NgFor, SquareComponent],
+  imports: [NgFor, NgIf, SquareComponent],
   templateUrl: './board.component.html',
   styleUrls: ['./board.component.scss']
 })
