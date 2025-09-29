@@ -23,7 +23,7 @@ export class BoardComponent implements OnInit {
     this.winner = null;
   }
 
-  get player(): string {
+  get player(): 'X' | 'O' {
     return this.xIsNext ? 'X' : 'O';
   }
 

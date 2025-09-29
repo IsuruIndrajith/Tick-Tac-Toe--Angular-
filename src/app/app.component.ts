@@ -8,9 +8,19 @@ import { BoardComponent } from "./components/board/board.component";
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, HomeComponent, HeaderComponent, SquareComponent, BoardComponent],
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  imports: [HomeComponent, HeaderComponent, BoardComponent],
+  template:
+  `<app-header></app-header>
+  <main>
+
+   <app-home></app-home>
+   <app-board></app-board>
+
+  </main>`,
+  styles: [`
+    main{padding: 16px;}
+  `]
+
 })
 export class AppComponent {
   title = 'TickTacToe';
